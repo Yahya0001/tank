@@ -30,11 +30,7 @@ def man():
     inputData = request.get_json()
 
     return jsonify( data = inputData['name']) , 200
-    path = "static/prediction_XY.svg"
-    # model = load('model.joblib')
-    # np_arr = f.floats_string_to_np_arr(inputData)
-    # f.make_picture('Linear_Regression.csv', model, np_arr, path)
-  # return jsonify(data ="http://127.0.0.1:5000/"+path)
+
 
 
 if __name__ == "__main__":
